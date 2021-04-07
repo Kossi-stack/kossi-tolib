@@ -1,16 +1,20 @@
 body {
     font-family: sans-serif;
-    
+    background-color: #eeeeee;
     color: black;
 
 }
-
+#img-div{
+    background-color: #fff;
+    margin: 15px;
+    padding: 15px;
+}
 img {
     max-width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
     
   }
 
@@ -27,7 +31,7 @@ p {
 }
 
 #main {
-    border: 1px solid ;
+    /* border: 1px solid ; */
 
 }
 h1, h2,h3 {
@@ -38,12 +42,15 @@ h1, h2,h3 {
 ul {
 width: 80%;
 margin: 0 auto;
+padding: 0 10%;
 }
 li {
     margin-bottom: 15px; 
-    font-size: 1.2em; 
+    font-size: 1.1em; 
     text-align: justify;
     line-height: 1.5;
+    font-weight: normal;
+    color: rgb(80, 77, 77);
 }
 li span {
     font-weight: bold;
@@ -53,4 +60,9 @@ li span {
     font-size: 1.1em;
     text-align: left;
     padding-left: 10%;
+}
+
+#tribute-link{
+    text-decoration: none;
+    cursor: pointer;
 }
