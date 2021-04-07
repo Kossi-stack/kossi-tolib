@@ -2,6 +2,9 @@ body {
     font-family: sans-serif;
     background-color: #eeeeee;
     color: black;
+    margin: 0;
+    padding: 0;
+
 
 }
 #img-div{
@@ -66,3 +69,19 @@ li span {
     text-decoration: none;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+    #img-div{
+        background-color: #fff;
+        padding: 15px;
+        margin: 0;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        
+      }
+  }
